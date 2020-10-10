@@ -1,7 +1,7 @@
 const CustomError = require("../extensions/custom-error");
 
 module.exports = function transform(arr) {
-  if(arr instanceof !Array){
+  if(arr instanceof Array){
     return Error;
   } 
   else{
